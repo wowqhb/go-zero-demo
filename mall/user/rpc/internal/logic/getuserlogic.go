@@ -28,7 +28,7 @@ func (l *GetUserLogic) GetUser(in *user.IdRequest) (*user.UserResponse, error) {
 
 	return &user.UserResponse{
 		Id:     id,
-		Name:   "哈哈哈",
+		Name:   "哈哈哈1",
 		Gender: "男",
 	}, nil
 }
